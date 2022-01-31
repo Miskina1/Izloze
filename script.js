@@ -5,7 +5,7 @@ let uzvaretajuSkaits=5;
 let rand= Math.random()*5;
 let rindas = document.querySelector('.rindas');
 rindas.innerHTML = '';
-for (let i=0; i> uzvaretajuSkaits; i++){
+for (let i=0; i< uzvaretajuSkaits; i++){
     let rand=Math.random() * vardi.length;
     rand=Math.floor(rand); // noapaļo skaitļus uz leju
 
@@ -13,6 +13,6 @@ for (let i=0; i> uzvaretajuSkaits; i++){
     rindas.innerHTML +=`
     <tr>
     <td> ${i+1}</td>
-    <td> ${izvaretjas}</td>
+    <td> ${uzvaretajs}</td>
     </tr>`
 }
