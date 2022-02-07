@@ -1,13 +1,15 @@
 table, th, td{
-    border: 2px solid rgb(104, 173, 230);   
+    border: 2px solid rgb(104, 173, 230);
+    background-color: aquamarine;   
 }
 table{
-    width:50px
+    width:40%;
 }
 th {
-    height:30px
-
+    height:100px;
 }
 th{
     text-align: center;
 }
+
+
