@@ -1,4 +1,13 @@
 table, th, td{
-    border: 2px solid rgb(0, 0, 0);
-    
+    border: 2px solid rgb(104, 173, 230);   
+}
+table{
+    width:50px
+}
+th {
+    height:30px
+
+}
+th{
+    text-align: center;
 }
